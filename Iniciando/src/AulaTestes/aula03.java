@@ -1,3 +1,5 @@
+package AulaTestes;
+
 public class aula03 {
     public static void main(String[] args) {
     //      Notação Ponto:

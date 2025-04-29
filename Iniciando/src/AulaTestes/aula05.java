@@ -1,3 +1,5 @@
+package AulaTestes;
+
 import java.util.Scanner;
 
 public class aula05 {
@@ -12,7 +14,7 @@ public class aula05 {
 
         System.out.println("Qual a sua idade?");
         int idade = teclado.nextInt();
-        teclado.nextLine(); //lê o "\\\\n" que o teclado.nextInt() deixa para trás.
+        teclado.nextLine(); //lê o "\n" que o teclado.nextInt() deixa para trás.
         System.out.println("Qual o seu nome?");
         String nome1 = teclado.nextLine();
         System.out.println("Qual o seu sobrenome?");

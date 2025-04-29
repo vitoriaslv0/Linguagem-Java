@@ -1,3 +1,5 @@
+package AulaTestes;
+
 import java.util.Date;
 //      Biblioteca para informações de DATA
 public class aula04 {
@@ -5,7 +7,7 @@ public class aula04 {
         Date d = new Date();
         System.out.println(d);
 
-        var nome = "Pedro";
+        var nome = "Pedro";  // "var" - o programa detecta qual o tipo da variável
         var sobrenome = "Santos";
         var idade = 33;
         var salario = 12345.80;

@@ -1,3 +1,5 @@
+package AulaTestes;
+
 import java.util.Scanner;
 public class aula0 {
     // ponto de entrada para começar o programa
