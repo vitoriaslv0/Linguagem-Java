@@ -1,0 +1,13 @@
+Classes e métodos abstratos
+não retorna qualquer valor específico; ele imprime na tela os valores dos
+atributos do objeto. Por isso, ele é declarado com o tipo de retorno void.
+
+NomeClasse nomeObjeto = new NomeClasse();  -> criar um objeto
+            |__ variável
+nomeObjeto.nomeAtributo = 0;  -> acessar um atributo
+
+Criação do MÉTODO:
+  double calcularIMC() {                       >>>       tipoRetornado nomeMetodo(listaParametros) {
+  double imc = peso / (altura * altura);       >>>       instruções
+  return imc;                                  >>>       return valor;
+  }                                            >>>       }

@@ -1,0 +1,8 @@
+package POO.operacoes;
+
+public class soma implements principal {
+    @Override
+    public double calcular(double a, double b) {
+        return a + b;
+    }
+}

@@ -13,19 +13,22 @@ public class funcionario {
     // Métodos Getters e Setters - acessar e modificar os valores dos atributos em uma classe
     public void setNome(String nome) {
         this.nome = nome;
-    }
+    }  //"void" - indicar que o métod0 não retorna nenhum valor
     public String getNome() {
         return nome;
-    }
+    } // retorna valor
+
     public void setIdade(int idade) {
         this.idade = idade;
     }
     public int getIdade() {
         return idade;
     }
+
     public void fazerAniversario(){
         idade++;
     }
+
     public static void main(String[] args) {
         // Criando uma instância da classe Funcionario
         funcionario f1 = new funcionario("João", 30);
